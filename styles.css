@@ -1,0 +1,72 @@
+body {
+    color:white;
+    background: black;
+    margin: 0px;
+}
+
+header {
+    border-bottom: solid 4px rgb(48, 48, 48);
+    padding: 22px;
+    font-size: 26px;
+    color: white;
+    font-family: "Open sans", sans-serif;
+    font-weight: 900;
+}
+
+.main {
+    background: rgb(30, 30, 30);
+    padding-bottom: 44px;
+    padding-top: 40px;
+    padding-left: 36px;
+    display: flex;
+}
+
+.text {
+    margin-left: 12px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+}
+
+.video {
+    margin-left: 170px;
+    margin-right: 32px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+img {
+    height: 139px;
+  }
+  
+.thumbnails{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.videos {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+  }
+
+.thumbnails img{
+    opacity: 0.5;
+    height: 136;
+}
+
+.thumbnails img:hover{
+    opacity: 1.0;
+    height: 144;
+    border: green solid;
+}
